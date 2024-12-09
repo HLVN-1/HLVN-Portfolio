@@ -7,7 +7,7 @@ export default function Hero() {
   const headingRef = useRef(null);
   const subTextRef = useRef(null);
   const buttonRef = useRef(null);
-  const bgRef = useRef(null);
+  //   const bgRef = useRef(null);
 
   useEffect(() => {
     const tl = gsap.timeline();
