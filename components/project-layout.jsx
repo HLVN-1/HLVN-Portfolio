@@ -10,7 +10,7 @@ export default function ProjectsPage() {
             <div className="container mx-auto px-4">
               <h1 className="text-3xl font-bold">Projects</h1>
               <p className="text-gray-300 mt-2">
-                Here are some of the projects I've worked on!
+                Here are some of the projects I&apos;ve worked on!
               </p>
             </div>
           </header>
