@@ -64,21 +64,21 @@ export default function Navbar() {
                 menuOpen ? "max-h-screen" : "max-h-0"
               }`}
             >
-              <a href="/" className="block text-lg hover:text-yellow-500">
+              <Link href="/" className="block text-lg hover:text-yellow-500">
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/project-page"
                 className="block text-lg hover:text-yellow-500"
               >
                 Projects
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#contact"
                 className="block text-lg hover:text-yellow-500"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           )}
         </div>
