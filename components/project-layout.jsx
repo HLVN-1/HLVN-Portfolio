@@ -1,8 +1,5 @@
 "use client"; // Required for GSAP animations in a client-side component
 
-import { useRef, useEffect } from "react";
-import { gsap } from "gsap";
-
 export default function ProjectsPage() {
   return (
     <div>

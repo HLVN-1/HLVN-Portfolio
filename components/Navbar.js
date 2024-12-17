@@ -13,7 +13,7 @@ export default function Navbar() {
         <h1 className="text-xl sm:text-2xl font-bold">Jason Newsom</h1>
         {/* Desktop Menu */}
         <div className="space-x-4 hidden md:flex">
-          <Link href="#hero" className="hover:text-yellow-300">
+          <Link href="/" className="hover:text-yellow-300">
             Home
           </Link>
           <Link href="#about" className="hover:text-yellow-300">
@@ -64,11 +64,11 @@ export default function Navbar() {
                 menuOpen ? "max-h-screen" : "max-h-0"
               }`}
             >
-              <a href="#hero" className="block text-lg hover:text-yellow-500">
+              <a href="/" className="block text-lg hover:text-yellow-500">
                 Home
               </a>
               <a
-                href="/projects"
+                href="/project-page"
                 className="block text-lg hover:text-yellow-500"
               >
                 Projects
