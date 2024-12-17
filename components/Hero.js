@@ -45,13 +45,16 @@ export default function Hero() {
         <p ref={subTextRef} className="text-xl">
           Front-End Developer | GSAP Enthusiast | Responsive Design
         </p>
-        <button
+        <a
+          href="https://github.com/HLVN-1"
+          target="_blank"
+          rel="noopener noreferrer"
           ref={buttonRef}
           className="px-6 py-3 bg-yellow-500 rounded-lg hover:bg-yellow-600"
           id="explorebtn"
         >
           Explore My Work
-        </button>
+        </a>
         {/* // Icons for GitHub and LinkedIn */}
         {/* <div className="flex space-x-4 mt-4">
   <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">
