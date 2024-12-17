@@ -19,7 +19,7 @@ export default function Navbar() {
           <Link href="#about" className="hover:text-yellow-300">
             About
           </Link>
-          <Link href="#projects" className="hover:text-yellow-300">
+          <Link href="/project-page" className="hover:text-yellow-300">
             Projects
           </Link>
           <Link href="#contact" className="hover:text-yellow-300">
@@ -68,7 +68,7 @@ export default function Navbar() {
                 Home
               </a>
               <a
-                href="#projects"
+                href="/projects"
                 className="block text-lg hover:text-yellow-500"
               >
                 Projects
