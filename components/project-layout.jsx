@@ -1,5 +1,3 @@
-"use client"; // Required for GSAP animations in a client-side component
-
 export default function ProjectsPage() {
   return (
     <div>
