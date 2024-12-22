@@ -37,7 +37,7 @@ export default function Hero() {
     <div>
       <section
         id="hero"
-        className="h-screen bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white flex flex-col justify-center items-center text-center"
+        className="h-screen m-o bg-gradient-with-noise bg-blend-multiply bg-cover text-white flex flex-col justify-center items-center text-center"
       >
         <h1 ref={headingRef} className="text-5xl font-bold mb-4">
           Welcome to my humble portfolio page!
