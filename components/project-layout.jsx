@@ -18,20 +18,38 @@ export default function ProjectsPage() {
           <main className="container mx-auto px-4 py-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <div className="bg-white shadow-md rounded-lg p-4">
-                <h2 className="text-xl font-bold">Project 1</h2>
+                <h2 className="text-xl font-bold">
+                  <a href="https://maintenance-form-app.vercel.app/">
+                    Maintenance Form
+                  </a>
+                </h2>
                 <p className="text-gray-600 mt-2">
                   A form to submit maintenance requests.
                 </p>
               </div>
               <div className="bg-white shadow-md rounded-lg p-4">
-                <h2 className="text-xl font-bold">Project 2</h2>
+                <h2 className="text-xl font-bold">
+                  <a href="https://hlvn-1.github.io/5minjournal/">
+                    5 Minute Journal
+                  </a>
+                </h2>
                 <p className="text-gray-600 mt-2">
                   A daily journal to write in.
                 </p>
               </div>
-              <div className="bg-white shadow-md rounded-lg p-4">
-                <h2 className="text-xl font-bold">Project 3</h2>
+              {/* <div className="bg-white shadow-md rounded-lg p-4">
+                <h2 className="text-xl font-bold">Coffee Cafe Website</h2>
                 <p className="text-gray-600 mt-2">A Coffee Shop website.</p>
+              </div> */}
+              <div className="bg-white shadow-md rounded-lg p-4">
+                <h2 className="text-xl font-bold">
+                  <a href="https://random-joke-fetcher.vercel.app/">
+                    Dad Jokes Randomizer
+                  </a>
+                </h2>
+                <p className="text-gray-600 mt-2">
+                  A random joke fetcher created with JS, Playwright, and an API.
+                </p>
               </div>
             </div>
           </main>
