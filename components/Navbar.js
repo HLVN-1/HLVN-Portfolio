@@ -22,7 +22,10 @@ export default function Navbar() {
           <Link href="/project-page" className="hover:text-yellow-300">
             Projects
           </Link>
-          <Link href="#contact" className="hover:text-yellow-300">
+          <Link
+            href="https://www.linkedin.com/in/jnewsom405/"
+            className="hover:text-yellow-300"
+          >
             Contact
           </Link>
         </div>
@@ -74,7 +77,7 @@ export default function Navbar() {
                 Projects
               </Link>
               <Link
-                href="#contact"
+                href="https://www.linkedin.com/in/jnewsom405/"
                 className="block text-lg hover:text-yellow-500"
               >
                 Contact
